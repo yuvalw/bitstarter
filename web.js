@@ -13,6 +13,6 @@ app.listen(port, function() {
 });
 
 function readIndexHtml(){
-    var file = fs.readFileSync('index.html', {encoding:'ascii'});
+    var file = fs.readFileSync('index.html', {encoding:'utf8'});
     return file;
 }
